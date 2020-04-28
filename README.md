@@ -6,7 +6,7 @@ This package uses Nodered to create a Hydro turbine-generator unit local HMI env
 The virtual machine uses Lubuntu 18.04 as an OS. the user name is osboxes.org and the password is Nimda2020. 
 
 NPM(Nodejs package manager) packages installed:
--Node-red
--node-red-contrib-opc-ua
--node-red-contrib-uibuilder
--nodered-dashboard
+-Node-red,
+-node-red-contrib-opc-ua,
+-node-red-contrib-uibuilder,
+-nodered-dashboard.
