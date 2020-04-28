@@ -1,5 +1,12 @@
 # Annunciator
-Annunciator VM with IEC 626282 and IEC 61850 in mind
+Annunciator VM with IEC 62682 and IEC 61850 in mind
 
-This package is built upon libiec61850 from Michael Zillgith and uses a openiec61850 client from Fraunhofer to interogate the different server.
-The virtual machine uses Ubuntu as an OS. the user name is Ubuntu and the password is nimda. 
+This package uses Nodered to create a Hydro turbine-generator unit local HMI environment for a IEC61850 Annunciator ( based on the IEC 62682 state machine) and connected to a OPC-UA server.
+
+The virtual machine uses Lubuntu 18.04 as an OS. the user name is osboxes.org and the password is Nimda2020. 
+
+NPM(Nodejs package manager) packages installed:
+-Node-red
+-node-red-contrib-opc-ua
+-node-red-contrib-uibuilder
+-nodered-dashboard
